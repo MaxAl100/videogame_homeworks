@@ -1,0 +1,6 @@
+{
+    "HOST": "localhost",
+    "PORT": 47365,
+    "MINIMO_JUGADORES": 2,
+    "MAXIMO_JUGADORES": 4
+}

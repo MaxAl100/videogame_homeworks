@@ -1,0 +1,5 @@
+<RCC>
+  <qresource prefix="logo_juego">
+    <file>Sprites/Logo/Logo.png</file>
+  </qresource>
+</RCC>

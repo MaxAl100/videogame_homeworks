@@ -1,0 +1,30 @@
+El casino es la clase principal, con la cual todo está relacionado.
+El show sólo tiene un método, ya que no requiere más para funcionar
+
+La clase juego está incluida en casino a través de una lista de juegos y 
+cada juego funciona de similar manera, por lo que no hay problemas ahí.
+Además retorna un bool en probabilidad ganar como apoyo para el resto del programa
+
+La clase abstracta de bebestibles nunca es corrida y su método consumir() es
+también abstracto. Así cada uno de los bebestibles distintos que heredan de 
+Bebestibles tiene que incluirlo.
+
+La clase jugador es también abstracta, ya que cada jugador tiene que tener una 
+habilida especial no incluida en este código principal. Cada tipo de jugador
+hereda de Jugador e incluye el código de este.
+
+
+
+Las flechas existen en tres tipos distintos en mi diagrama, primero una flecha con
+un rombo vacío a un lado y una flecha abierta al otro y esta simboliza agregación,
+es decir, que los jugadores, bebestibles y juegos son clases aparte y al "terminar"
+con la clase casino estas clases siguen existiendo.
+
+Por otro lado, la flecha que incluye al rombo entero es composición y el show
+sí termina eliminándose en caso de que se elimine el casino
+
+Finalmente la flecha de una dirección y con un triángulo entero a un lado demarca
+herencia, donde la base de la flecha hereda de la punta de esta
+
+
+

@@ -1,0 +1,77 @@
+{
+    "HOST": "localhost",
+    "PORT": 47365,
+    "RUTA_PANTALLA_INICIO": [
+        "frontend",
+        "ventanas_designer",
+        "ventana_inicio.ui"
+    ],
+    "RUTA_PANTALLA_ESPERA": [
+        "frontend",
+        "ventanas_designer",
+        "ventana_espera.ui"
+    ],
+    "RUTA_PANTALLA_JUEGO": [
+        "frontend",
+        "ventanas_designer",
+        "ventana_juego.ui"
+    ],
+    "RUTA_PANTALLA_FINAL": [
+        "frontend",
+        "ventanas_designer",
+        "ventana_final.ui"
+    ],
+    "RUTA_ROJA_SIMPLE": [
+        "Sprites",
+        "Fichas",
+        "Simples",
+        "ficha-roja.png"
+    ],
+    "RUTA_AZUL_SIMPLE": [
+        "Sprites",
+        "Fichas",
+        "Simples",
+        "ficha-azul.png"
+    ],
+    "RUTA_VERDE_SIMPLE": [
+        "Sprites",
+        "Fichas",
+        "Simples",
+        "ficha-verde.png"
+    ],
+    "RUTA_AMARILLA_SIMPLE": [
+        "Sprites",
+        "Fichas",
+        "Simples",
+        "ficha-amarilla.png"
+    ],
+    "RUTA_ROJA_DOBLE": [
+        "Sprites",
+        "Fichas",
+        "Dobles",
+        "fichas-rojas.png"
+    ],
+    "RUTA_AZUL_DOBLE": [
+        "Sprites",
+        "Fichas",
+        "Dobles",
+        "fichas-azules.png"
+    ],
+    "RUTA_VERDE_DOBLE": [
+        "Sprites",
+        "Fichas",
+        "Dobles",
+        "fichas-verdes.png"
+    ],
+    "RUTA_AMARILLA_DOBLE": [
+        "Sprites",
+        "Fichas",
+        "Dobles",
+        "fichas-amarillas.png"
+    ],
+    "RUTA_ESTRELLA": [
+        "Sprites",
+        "Juego",
+        "estrella.png"
+    ]
+}
